@@ -1,5 +1,5 @@
 # Q. Program to add to numbers
-
+# Take input from the user
 
 # number = int(input("enter number 1st :"))
 # number2 = int(input("enter number 2nd :"))
