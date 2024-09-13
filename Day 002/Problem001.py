@@ -2,21 +2,10 @@
 # create a another function which double value of 'result'
 
 
-def add(a, b):
-    global result
-    result = a + b
-    return result
+def add(a,b):
+    return a + b
 
-
-print(add(10, 20))
-
-
-def double(value):
-    return value * 2
-
-
-print(double(result))
-
+print(add(7,9))
 
 # concept 1
 # scope of variable
