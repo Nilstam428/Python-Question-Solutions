@@ -1,6 +1,9 @@
 # Q create a function to add two numbers and store result in 'result' variable.
 # create a another function which double value of 'result'
 
+# Global variable that is outside of any function
+#local variable that is inside a function
+
 
 def add(a,b):
     return a + b
