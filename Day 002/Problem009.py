@@ -1,9 +1,10 @@
 # Q what is Docstring . explain with example ?
 
 
-# concept 1
-# "this is my python program"
-# print(name)
+def greet(name):
+    """this is my python program"""
+    print(name)
+    return name
 
 
 def add(a, b):
@@ -12,3 +13,5 @@ def add(a, b):
 
 
 print(add.__doc__)
+print(greet.__doc__)
+# print(greet.__annotations__)

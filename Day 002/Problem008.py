@@ -1,12 +1,20 @@
 # Q what is **kwargs ? explain with function's example ?
+#here we taake n no. of keyword arguments for getting arguments for the function
+
+def data(**details):
+    for key, value in details.items():
+        print(f"{key} : {value}")
+        
+data(name = "Nilesh", age=22, location = "Chittorgarh")
+
+# It produces dictionary as a output        
 
 
-def function(**kwargs):
-    for keys, values in kwargs.items():
-        print(f"{keys} : {values}")
 
 
-function(name="jai", age=21, marks="good")
+
+
+
 # dictionary
 
 # for key , values in dict.items():

@@ -1,9 +1,12 @@
 # What is *args (Non-Keyword Arguments) ? explain with function's example.
 
-
-def function(*args):
-    for i in args:
-        print(i)
+#in this we can give infinite input as argument to a function!
 
 
-function("123456", "2", "24")
+# def hello(*name):
+#     for i in name:
+#         print(i)
+        
+
+
+# hello("NILESH","RAHUL","SUresh")
