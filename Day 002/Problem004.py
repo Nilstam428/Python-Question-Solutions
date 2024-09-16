@@ -1,27 +1,28 @@
 # Q write a function to check (number is prime or not)
 
-
-# concept 1
-# eg : 2, 3, 5, 7, 11, 13,
-
-
 def checkPrime(number):
     if number < 2:
         print("number is not a prime number")
     elif number == 2:
         print("2 is a prime number")
     elif number > 2:
+        divisors = []
         for i in range(2, number):
             if number % i == 0:
-                print(f"{number} is not a prime number because it is divided by {i}")
-                break
+                divisors.append(i)
+        if len(divisors)>0:
+            print(f"{number} is not a prime number because it isdivisible by {', '.join(map(str, divisors))}")        
         else:
             print(f"{number} is a prime number")
+            #     print(f"{number} is not a prime number because it is divided by { i }")
+            #     break        
+            # else:
+            #     print(f"{number} is a prime number")
     else:
         print("invalid input")
 
 
-checkPrime(13)
+checkPrime(int(input("Enter a number: ")))
 
 
 # while True:
