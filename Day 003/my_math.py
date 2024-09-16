@@ -19,8 +19,7 @@ def divide(a, b):
     else:
         return a / b
 
+name = "ram"
 
-# name = "ram"
-
-# name = "radha"
-# print(name)
+name = "radha"
+print(name)
