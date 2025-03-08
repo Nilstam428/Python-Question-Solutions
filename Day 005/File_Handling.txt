@@ -1,0 +1,2 @@
+This is a template file explaining the functionality python os module and currently I'am revising the whole python I've had covered in previous day.
+Any question or doubt you can ask me directly.
