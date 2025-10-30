@@ -9,8 +9,8 @@ mylist = ['ram', 'shyam', 'nilesh', 'darshan', 'asok']
 # for i in range(element):
 #   mylist.append(input("Enter the element: "))
 
-# mytuple = itemgetter(0, -1)(mylist)
-mytuple = tuple(mylist[0] + mylist[-1])
+mytuple = itemgetter(0, -1)(mylist)
+# mytuple = tuple(mylist[0] + mylist[-1])
 
 print(mylist)  
 print(mytuple)

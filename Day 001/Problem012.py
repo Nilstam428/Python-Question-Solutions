@@ -1,11 +1,14 @@
 # Q add element in tuple
 
-# mytuple = (1,2,3,4)
-# newtuple = tuple(input("ENter you want to add:"))
+mytuple = (1, 2, 3, 4)
+new_element = int(input("Enter number you want to add: "))  # convert input to int
+newtuple = mytuple + (new_element,)   # add as tuple with one element
 
-# newtuple = mytuple + newtuple
-# print(mytuple)
-# print(newtuple)
+print("Original:", mytuple)
+print("New:", newtuple)
+
+
+# Remove duplicates
 
 li = (3,5,2,3,2)
 l1 = set(li)

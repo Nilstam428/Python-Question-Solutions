@@ -17,3 +17,4 @@ print(numbers)
 
 # use pop
 numbers.pop()
+print(numbers)

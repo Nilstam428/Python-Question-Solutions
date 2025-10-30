@@ -8,6 +8,7 @@
 name = "RAM"
 
 
+print(name)
 for i in name:
   print(i)
 for i in name:

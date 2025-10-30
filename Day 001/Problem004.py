@@ -11,8 +11,10 @@
 name = "Nilesh Tamboli"
 new_name = name[::-1]
 print(new_name)
-
+# [index : last index : step_size]
 #slicing examples
 print(name[:3:2])
 print(name[::])
 print("Hellop")
+
+# str = "Hello World"
