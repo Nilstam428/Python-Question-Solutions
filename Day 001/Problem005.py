@@ -4,4 +4,8 @@
 
 
 name = input("enter your name :")
-print(tuple(name))
+list_name = list(name)
+print(list_name)
+
+rename = "".join(list_name)
+print(rename)

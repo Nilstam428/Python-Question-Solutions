@@ -6,10 +6,10 @@
 # print(number + number2)
 
 
-x, y = map(int, input("enter two numbers :").split(","))
-print(x + y)
+# x, y = map(int, input("enter two numbers :").split(","))
 
-# x,y =  map(int, input("Enter two values: ").split())
+x,y =  map(int, input("Enter two values: ").split())
+print(x + y)
 
 
 # x, y, z = input("enter three numbers seperated with comma : ").split(",")

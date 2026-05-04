@@ -5,10 +5,12 @@
 
 
 name = input("enter your name :")
-newName = name[0] + name[-1]
-print(newName)
+# newName = name[0] + name[-1]
 
 
 # python indexing
 # 1. postive (0 , n-1)
 # 2. negative (-n,-1)
+
+print(name[0] + name[-1])
+# print(newName)
